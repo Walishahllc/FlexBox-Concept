@@ -1,0 +1,56 @@
+.item1 {
+    background-color: aqua;
+    /* align-self: self-start; */
+}
+
+.item2 {
+    background-color: blue;
+    /* align-self: self-end; */
+}
+
+.item3 {
+    background-color: green;
+    /* flex-grow: 4; */
+    /* align-self: stretch; */
+
+
+}
+
+.item4 {
+    background-color: orange;
+    /* flex-shrink: 2; */
+    /* align-self: stretch; */
+}
+
+.item5 {
+    background-color: red;
+    /* align-self: flex-end; */
+}
+
+.item6 {
+    background-color: purple;
+    /* align-self: flex-end; */
+}
+
+#item-content {
+    font-size: 30px;
+    border: 5px solid black;
+    text-align: center;
+    height: 150px;
+    width: 200px;
+    color: white;
+
+
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+}
